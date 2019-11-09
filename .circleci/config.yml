@@ -1,0 +1,61 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:10
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      # run tests!
+      - run: yarn run build
+
+      - run: mv public zq-blog
+
+      - persist_to_workspace:
+          root: ~/repo
+          paths:
+            - cmcc-cheatsheet
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - run: sudo apt-get update && sudo apt-get install rsync
+      - attach_workspace:
+          at: ~/repo
+      - add_ssh_keys:
+          fingerprints:
+            - "d7:97:6e:94:6a:9d:7e:d2:d9:bd:93:ba:48:e4:20:7a"
+      - run: cd ~/repo/cmcc-cheatsheet && ls
+      - run:
+          name: Deploy Over SSH
+          command: |
+            rsync -va --delete ~/repo/cmcc-cheatsheet/ $BEAF_USER@$BEAF_HOST:/usr/web/cmcc-cheatsheet
+
+workflows:
+  version: 2
+  build-and-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
