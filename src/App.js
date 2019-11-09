@@ -1,24 +1,69 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import CheatSheet from "./CheatSheet";
+
+//import data from "./data.json";
+
+import getData from "./getData";
 
 function App() {
+  const [header, setHeader] = useState("");
+
+  const [examId, setExamId] = useState("");
+
+  const [loading, setLoading] = useState(false);
+
+  const [data, setData] = useState(null);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div style={{ padding: 15 }}>
+      <div>
+        登录信息:
+        <input
+          style={{ width: 200 }}
+          value={header}
+          onChange={({ target: { value } }) => setHeader(value)}
+        />
+      </div>
+
+      <div>
+        考试id
+        <input
+          style={{ width: 200 }}
+          value={examId}
+          onChange={({ target: { value } }) => setExamId(value)}
+        />
+      </div>
+
+      <div>
+        <button
+          disabled={ !header || !examId }
+          onClick={() => {
+            setLoading(true);
+            getData({
+              header,
+              examId
+            })
+              .then(data => {
+                setData(data);
+              })
+              .catch(() => {
+                setData(null);
+              })
+              .finally(() => {
+                setLoading(false);
+              });
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          查询
+        </button>
+      </div>
+
+      {loading ? (
+        <div>加载中....</div>
+      ) : data ? (
+        <CheatSheet data={data} />
+      ) : null}
     </div>
   );
 }

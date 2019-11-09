@@ -1,0 +1,1190 @@
+[
+  {
+    "answerRecord": null,
+    "content": "以下不是VLAN的作用的是（）。",
+    "errorRate": 145000,
+    "id": "2a892b04-898e-469e-bc0e-6087b8239592",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "649c7fd6-06de-4e3d-9036-368d756a4e6a",
+        "name": "0",
+        "type": "1",
+        "value": "便于逻辑工作组的管理与通信"
+      },
+      {
+        "id": "1398e37c-24a5-40b5-a0c9-4f8aeca76e69",
+        "name": "1",
+        "type": "1",
+        "value": "隔离广播域，防止广播风暴"
+      },
+      {
+        "id": "baef221c-82e2-4cd8-b93a-4098bd1d7cd5",
+        "name": "2",
+        "type": "1",
+        "value": " 提供更高的安全性"
+      },
+      {
+        "id": "b7df24fa-7312-4647-8655-1669098b7d64",
+        "name": "3",
+        "type": "0",
+        "value": "增加网络传输速度"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "以下不属于防火墙关键技术的是（）。",
+    "errorRate": 273700,
+    "id": "b74294e2-9844-4e31-b19f-3c94210aef01",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "221656bc-328d-4b60-b1c2-e574dca14719",
+        "name": "0",
+        "type": "1",
+        "value": "安全区域"
+      },
+      {
+        "id": "aa2b470c-711f-4a71-8c1e-145f5e127b52",
+        "name": "3",
+        "type": "1",
+        "value": "NAT"
+      },
+      {
+        "id": "dd4d5d83-cdae-45eb-b965-d6953bb727b1",
+        "name": "2",
+        "type": "0",
+        "value": "路由转发"
+      },
+      {
+        "id": "e456a26a-a27d-4af7-96f1-14fd8b845b07",
+        "name": "1",
+        "type": "1",
+        "value": "VPN"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "在一棵二叉树中，度为0的节点个数是n0，度为2的节点个数是n2，则有n0=____。",
+    "errorRate": 373400,
+    "id": "82345ad7-c0c1-4890-afe4-b80a68f32a2f",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "5f51c11d-6bb4-4f21-82ca-5b0c0f3e93a3",
+        "name": "3",
+        "type": "1",
+        "value": "n2+2"
+      },
+      {
+        "id": "cdd58a73-2a54-48fb-a5a9-89f7758f92f4",
+        "name": "0",
+        "type": "1",
+        "value": "n2-1"
+      },
+      {
+        "id": "165e363a-8849-4b38-a2b4-0138ae33f479",
+        "name": "2",
+        "type": "0",
+        "value": "n2+1"
+      },
+      {
+        "id": "dea861c7-c5c4-40b7-8870-f13b8ab48d95",
+        "name": "1",
+        "type": "1",
+        "value": "n2"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "设计一个判别表达式中括号是否配对的算法，采用（）数据结构最合适。",
+    "errorRate": 343500,
+    "id": "9d36760e-8159-43ab-b8fb-f787f7888334",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "6531620a-5d98-4db0-8c01-bd1caf4dadcb",
+        "name": "1",
+        "type": "1",
+        "value": "链表"
+      },
+      {
+        "id": "42219740-a352-45b8-aaa3-846126a4dc9f",
+        "name": "3",
+        "type": "0",
+        "value": "栈"
+      },
+      {
+        "id": "e5402eb4-2c38-45f2-a36c-666df79888c5",
+        "name": "0",
+        "type": "1",
+        "value": "顺序表"
+      },
+      {
+        "id": "77293ed1-f06f-4225-a620-4870f5b683f5",
+        "name": "2",
+        "type": "1",
+        "value": "队列"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "Ceph和()支持的基本功能较全面",
+    "errorRate": 522000,
+    "id": "55d804fb-8af7-418d-83bb-58f3bac1c6e3",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "3c73fbe4-02fa-4956-a13d-74d400a94c73",
+        "name": "0",
+        "type": "1",
+        "value": "Hadoop HDFS"
+      },
+      {
+        "id": "7b6b57cd-0126-4a74-8ba6-88fa37fc5c2e",
+        "name": "3",
+        "type": "0",
+        "value": "GlusterFS"
+      },
+      {
+        "id": "096a4c0d-827c-48ee-8fe8-8b88fef6a9e8",
+        "name": "2",
+        "type": "1",
+        "value": "OpenStack Swift"
+      },
+      {
+        "id": "a7b2e59e-4d0b-479a-8b58-3000333c34f8",
+        "name": "1",
+        "type": "1",
+        "value": "Ceph"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "以下属于关系型数据库的产品是（）。",
+    "errorRate": 172200,
+    "id": "7b137574-a56a-4791-a8a9-280b61696a5c",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "6c48e345-6fd5-45a8-9ce1-723f1944fed6",
+        "name": "1",
+        "type": "1",
+        "value": "MongoDB"
+      },
+      {
+        "id": "a8e057f7-d761-4373-be8e-3b2fed330eef",
+        "name": "3",
+        "type": "1",
+        "value": "HBASE"
+      },
+      {
+        "id": "35c00f09-9d31-4e7f-96d6-c188640a7d2e",
+        "name": "0",
+        "type": "0",
+        "value": "MySQL"
+      },
+      {
+        "id": "2260d46b-be99-4614-8168-6447987f044c",
+        "name": "2",
+        "type": "1",
+        "value": "Redis"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "（）是第一个广泛使用的开源关系型数据库。",
+    "errorRate": 305400,
+    "id": "b8d5f968-bade-46b4-b56c-b59ccbd7156b",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "0eb3aec2-f735-4dd9-9794-6f505396786f",
+        "name": "0",
+        "type": "1",
+        "value": "Oracle"
+      },
+      {
+        "id": "46fb4ef0-597e-4534-be5f-4ec220625496",
+        "name": "3",
+        "type": "1",
+        "value": "MongoDB"
+      },
+      {
+        "id": "8c938edb-0cf4-4502-a6b1-cd4cbaad9878",
+        "name": "2",
+        "type": "0",
+        "value": "MySQL"
+      },
+      {
+        "id": "91e58cd0-2608-4a42-953d-e9e401622cd7",
+        "name": "1",
+        "type": "1",
+        "value": "Redis"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "敏捷开发以（）为核心。",
+    "errorRate": 260300,
+    "id": "2b7f764b-6cac-4d5c-b71c-0e007cdc64ea",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "18e01aa6-9555-4ad5-86cf-e482778534ee",
+        "name": "2",
+        "type": "0",
+        "value": "用户需求进化"
+      },
+      {
+        "id": "aa9cd9c6-b946-4344-b3e4-f7a8ca7fbed5",
+        "name": "0",
+        "type": "1",
+        "value": "持续改进"
+      },
+      {
+        "id": "2c1785ba-18bf-41bc-9533-59f67c7f24cc",
+        "name": "3",
+        "type": "1",
+        "value": "质量保证"
+      },
+      {
+        "id": "1a494833-9cec-49e2-9438-c6eeb42c0e09",
+        "name": "1",
+        "type": "1",
+        "value": "精益开发"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "以下哪个不属于六西格玛的流程（）。",
+    "errorRate": 222200,
+    "id": "7de5c0d1-3eeb-42f3-a4ab-8bb39c156fd1",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "02385bea-5fe5-44f7-973e-47422de34cbf",
+        "name": "3",
+        "type": "1",
+        "value": "分析"
+      },
+      {
+        "id": "10cc7ad2-9a97-4e9c-90bf-1c0c2e887e05",
+        "name": "2",
+        "type": "0",
+        "value": "回退"
+      },
+      {
+        "id": "1a274837-69f9-471e-8151-05c032cc390c",
+        "name": "1",
+        "type": "1",
+        "value": "测量"
+      },
+      {
+        "id": "8045bcc6-27e2-4257-b771-468910a8dfdd",
+        "name": "0",
+        "type": "1",
+        "value": "界定"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "()是由事件驱动或者当它被调用时执行的可重复使用的代码块",
+    "errorRate": 177100,
+    "id": "6accfa05-ce6f-448c-8bc5-f0bc96a6469d",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "907aab10-da9a-4548-9a78-6479c231796c",
+        "name": "0",
+        "type": "0",
+        "value": "函数"
+      },
+      {
+        "id": "d8489ea3-55c3-4028-91d9-53c02af4dce0",
+        "name": "1",
+        "type": "1",
+        "value": "数组"
+      },
+      {
+        "id": "4dbf5db7-eb9c-40e8-904b-573de2613c32",
+        "name": "3",
+        "type": "1",
+        "value": "集合"
+      },
+      {
+        "id": "596e67a9-2f1c-46a8-8e74-b5302711e978",
+        "name": "2",
+        "type": "1",
+        "value": "对象"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "在Struts实现的MVC框架中（）类是包含了execute方法的控制器类，负责调用模型的方法，控制应用程序的流程。",
+    "errorRate": 177700,
+    "id": "0d596fee-a114-4259-ba14-7aa2d022ea9b",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "7a1f8aff-2d30-497e-9815-9f1313626ed3",
+        "name": "0",
+        "type": "0",
+        "value": "Action"
+      },
+      {
+        "id": "ab81d7b5-dbf7-4467-86ea-fcc70b7e0dfc",
+        "name": "3",
+        "type": "1",
+        "value": "actionservlet"
+      },
+      {
+        "id": "c226ad71-933f-4702-b3e3-5e267a049259",
+        "name": "1",
+        "type": "1",
+        "value": "ajax"
+      },
+      {
+        "id": "f2488a4e-117f-4d22-a2cc-537c1d7aeb9f",
+        "name": "2",
+        "type": "1",
+        "value": "JSP"
+      }
+    ],
+    "score": 400,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "在C#中，下列类型哪个不属于引用类型（）。",
+    "errorRate": 237700,
+    "id": "9019ad6f-9011-4503-9669-2d3f62eb83aa",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "36eced25-220d-4077-a42f-9182939de69c",
+        "name": "3",
+        "type": "1",
+        "value": "Delegate"
+      },
+      {
+        "id": "d9204308-0224-4df0-b4fa-6b4d4a0e946d",
+        "name": "2",
+        "type": "1",
+        "value": "Class"
+      },
+      {
+        "id": "1f481e3b-09cd-4d05-99f2-f555b6cb9367",
+        "name": "0",
+        "type": "1",
+        "value": "String"
+      },
+      {
+        "id": "0e2c5b10-dc1f-4799-9037-33f3fa92331c",
+        "name": "1",
+        "type": "0",
+        "value": "int"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "以下哪个是SQL中用来统计数量的函数（）。",
+    "errorRate": 71300,
+    "id": "01f7d1d2-99f9-4f05-8c3b-933041ae1fa0",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "b531717c-7829-407b-8083-2395d66b32d0",
+        "name": "1",
+        "type": "1",
+        "value": "max()"
+      },
+      {
+        "id": "122b07aa-e440-458c-8786-0aed0a391ff2",
+        "name": "0",
+        "type": "0",
+        "value": "count()"
+      },
+      {
+        "id": "0e3e9b56-7bae-49e2-b062-d522e7ceccf2",
+        "name": "3",
+        "type": "1",
+        "value": "now()"
+      },
+      {
+        "id": "ea74187b-410a-4902-a637-7a3bfbd15690",
+        "name": "2",
+        "type": "1",
+        "value": "min()"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "以下不是消息队列中间件的是（）。",
+    "errorRate": 234899,
+    "id": "ca2c68f7-b0bb-4aea-9f30-7d76d3ae6d51",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "2d2a26f3-ccf7-4236-a4d3-e27d0e2963d4",
+        "name": "1",
+        "type": "1",
+        "value": "RabbitMQ"
+      },
+      {
+        "id": "0b0ddc87-7a6e-48a5-a37b-5fa404341ee5",
+        "name": "3",
+        "type": "0",
+        "value": "Nginx"
+      },
+      {
+        "id": "226830bf-fdb0-42d8-942b-e391c3be5004",
+        "name": "0",
+        "type": "1",
+        "value": "ActiveMQ"
+      },
+      {
+        "id": "8271e508-c6f7-4c93-a2ab-b418e2263363",
+        "name": "2",
+        "type": "1",
+        "value": "Kafka"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "以下说法正确的是（）。",
+    "errorRate": 295700,
+    "id": "3a398279-1fdc-4c8f-8cc3-a7c4c38350e2",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "bdbf7ae9-78a4-42ea-a2f7-f37f089b99e4",
+        "name": "3",
+        "type": "0",
+        "value": "RPC可以使用TCP或者UDP进行通信"
+      },
+      {
+        "id": "ae523284-b618-4024-809e-2abc81524ed4",
+        "name": "2",
+        "type": "1",
+        "value": "RPC可以是客户端了解到请求的具体过程"
+      },
+      {
+        "id": "319c6f30-0d57-488e-9839-93c32dbdb63e",
+        "name": "1",
+        "type": "1",
+        "value": "RPC需要了解底层协议"
+      },
+      {
+        "id": "da5a4ae6-af97-4749-b1b0-e405069f7dc1",
+        "name": "0",
+        "type": "1",
+        "value": "RPC采用B/S模式"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "持续交付的周期包含 编码（CODE）、构建(BUILD) 、（）环节",
+    "errorRate": 210000,
+    "id": "c48265cc-2fb9-465d-9294-c1a2871bba56",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "904474be-aa14-4f5b-a9a5-6d3f06131cae",
+        "name": "1",
+        "type": "0",
+        "value": " 测试(TEST) "
+      },
+      {
+        "id": "e7c8a081-6b41-4c21-a089-83f00c5b42e9",
+        "name": "0",
+        "type": "0",
+        "value": "集成(INTEGRATE) "
+      },
+      {
+        "id": "9a0f675d-559b-4a31-8e38-b4a3586f9c5b",
+        "name": "2",
+        "type": "0",
+        "value": "交付（DELIVER）"
+      },
+      {
+        "id": "db13f4b6-5a95-4529-83a1-6242109b9169",
+        "name": "3",
+        "type": "0",
+        "value": "部署(DEPLOY)"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "CSS 规则由两个主要的部分构成：()。",
+    "errorRate": 319800,
+    "id": "15a43627-488f-423a-97e8-46bab15a2c85",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "ff96e2e0-b572-431b-8f6e-5cc532adf551",
+        "name": "1",
+        "type": "2",
+        "value": "标签"
+      },
+      {
+        "id": "9714f6c0-507c-4ed9-b852-a33dfb71b163",
+        "name": "0",
+        "type": "0",
+        "value": "选择器"
+      },
+      {
+        "id": "0324bd91-ad81-4a8f-909b-e94b1712096f",
+        "name": "2",
+        "type": "2",
+        "value": "函数"
+      },
+      {
+        "id": "a47cb7dd-80e1-484f-a37e-4e1c74dbdeb8",
+        "name": "3",
+        "type": "0",
+        "value": "一条或多条声明。"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "HTML5具有很多特性，分别是（）与特效、设备通用、性能与集成、连接以及CSS3",
+    "errorRate": 263600,
+    "id": "9c3e4498-96d6-4795-8505-b4d6744f64f0",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "94191e7b-aa39-4923-9322-287d13a61a5b",
+        "name": "1",
+        "type": "0",
+        "value": "多媒体"
+      },
+      {
+        "id": "e9292228-617f-4ad1-a8d6-408a8f7c0637",
+        "name": "0",
+        "type": "0",
+        "value": "语义化"
+      },
+      {
+        "id": "62a38805-2955-43e6-a3d8-3cbc283dff51",
+        "name": "2",
+        "type": "0",
+        "value": "离线存储"
+      },
+      {
+        "id": "463900cb-7d57-4ea1-85db-f745f06563ba",
+        "name": "3",
+        "type": "0",
+        "value": "三维图像"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "以下是线性表的数据结构是（）。",
+    "errorRate": 398800,
+    "id": "9d1595a3-9a74-48c5-b088-e7938b472113",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "95632854-6038-4e9c-ac3b-ee2d96976b86",
+        "name": "1",
+        "type": "0",
+        "value": "单链表"
+      },
+      {
+        "id": "97bfa104-c10a-4120-8fd3-f86635e6f211",
+        "name": "0",
+        "type": "0",
+        "value": "数组"
+      },
+      {
+        "id": "6be85d18-7db3-4439-b0b9-ff95db829ec4",
+        "name": "3",
+        "type": "0",
+        "value": "循环链表"
+      },
+      {
+        "id": "5abc29cd-2de3-45d4-ad99-d8c187f6f52d",
+        "name": "2",
+        "type": "0",
+        "value": "双链表"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "以下是DevOps的优点的是（）。",
+    "errorRate": 170700,
+    "id": "129878c9-7885-4e45-92a9-726aa559bdfd",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "8673f56d-a191-4665-b700-d3fa139dcb6a",
+        "name": "2",
+        "type": "0",
+        "value": "部署发布更稳定"
+      },
+      {
+        "id": "8d122067-4e4c-4dfd-a526-fe02677a0dc8",
+        "name": "1",
+        "type": "0",
+        "value": "产品质量获得提升"
+      },
+      {
+        "id": "7e9a6bfa-fad7-4544-8a7b-3e8ea6449179",
+        "name": "0",
+        "type": "0",
+        "value": "产品发布时间缩短"
+      },
+      {
+        "id": "c2903d67-1310-4b8b-bc51-84bc73e3563f",
+        "name": "3",
+        "type": "0",
+        "value": "生产效率提高"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "以下是敏捷管理的思想的是（）。",
+    "errorRate": 282600,
+    "id": "70ce1c75-4e6d-41ea-8f50-b1822c3fc880",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "5a6e6ee5-74ea-4335-b313-097e002479c4",
+        "name": "2",
+        "type": "0",
+        "value": "客户为先"
+      },
+      {
+        "id": "71966eb8-1b68-41b5-8a48-917a24c11f58",
+        "name": "0",
+        "type": "0",
+        "value": "以人为本"
+      },
+      {
+        "id": "287bcc73-4f1f-40e8-9bf8-dc6d1ad2824e",
+        "name": "3",
+        "type": "0",
+        "value": "拥抱变化"
+      },
+      {
+        "id": "79b93c8e-5c56-4d1e-960d-b8cc403a5f59",
+        "name": "1",
+        "type": "0",
+        "value": "目标导向"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "SSH中，各自处理哪一层的实现（）。",
+    "errorRate": 343400,
+    "id": "5bd6250c-8ee1-4cd6-87fc-afe75d6d78f3",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "9511a761-95c6-42bd-8495-fdbeb0b26d64",
+        "name": "2",
+        "type": "1",
+        "value": "Struts-持久层；Hibernate-表现层；Spring-业务逻辑层"
+      },
+      {
+        "id": "f23f8c3e-c966-44ce-b8c0-72c3d927f552",
+        "name": "0",
+        "type": "1",
+        "value": "Struts-业务逻辑层；Hibernate-表现层；Spring-持久层"
+      },
+      {
+        "id": "7d849e9f-bb73-43ab-b67e-460acb19e9a0",
+        "name": "1",
+        "type": "1",
+        "value": "Struts-表现层；Hibernate-业务逻辑层；Spring-持久层"
+      },
+      {
+        "id": "d0034fc1-c774-4d78-9c88-dbb7f6515b89",
+        "name": "3",
+        "type": "0",
+        "value": "Struts-表现层；Hibernate-持久层；Spring-业务逻辑层"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "以下哪些是微服务的优势（）。",
+    "errorRate": 209400,
+    "id": "05186d70-ccff-40b3-968d-a6d062d956ab",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "85632d53-7dd1-466d-92f6-fd52fe1ec648",
+        "name": "0",
+        "type": "0",
+        "value": "良好的扩展能力"
+      },
+      {
+        "id": "7f022878-2bd2-4484-9360-9915e8e74e5c",
+        "name": "2",
+        "type": "0",
+        "value": "版本更新便捷"
+      },
+      {
+        "id": "3eff07cc-3bd3-41b8-82a7-66b023b3ab7a",
+        "name": "3",
+        "type": "0",
+        "value": "良好的健壮性"
+      },
+      {
+        "id": "322a96c1-1b17-4070-8371-ad4149f6b2de",
+        "name": "1",
+        "type": "0",
+        "value": "技术选择灵活"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "在微服务架构中，需要实现（），去跟进一个请求到底有哪些服务参与，参与的顺序又是怎样的，从而使每个请求链路清晰可见，出现问题很快就能定位。",
+    "errorRate": 142400,
+    "id": "f1c5b8c4-9e32-4293-bea7-c98835c543e0",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "603f731f-e587-403b-9471-73048e4af7ab",
+        "name": "2",
+        "type": "1",
+        "value": "负载均衡"
+      },
+      {
+        "id": "7423d1eb-00f5-468e-a590-df96a90831d2",
+        "name": "1",
+        "type": "1",
+        "value": "熔断器"
+      },
+      {
+        "id": "9652d448-f858-41c8-bceb-2c97b70cb578",
+        "name": "0",
+        "type": "0",
+        "value": "分布式链路追踪"
+      },
+      {
+        "id": "1292544c-9467-4ec4-9647-dc1a96773906",
+        "name": "3",
+        "type": "1",
+        "value": "服务网关"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "异步消息传递微服务设计模式中，可以使用以下哪种形式来实现消息传递（）。",
+    "errorRate": 458300,
+    "id": "d517f1ee-80b6-4fdd-97cc-1e964ab57bbf",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "15e54e86-f9fd-42d1-86ea-c859f821b378",
+        "name": "3",
+        "type": "0",
+        "value": "同步等待"
+      },
+      {
+        "id": "0ee2875f-5b1a-454f-8b0e-b58cbb0939e7",
+        "name": "1",
+        "type": "1",
+        "value": "响应和发布"
+      },
+      {
+        "id": "83ec0694-780f-4895-8781-cee7ec7f7504",
+        "name": "0",
+        "type": "1",
+        "value": "REST请求"
+      },
+      {
+        "id": "bf4133b5-8bb6-4716-92d9-b7da056feb8f",
+        "name": "2",
+        "type": "1",
+        "value": "订阅消息"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "Docker仓库分为（）。",
+    "errorRate": 241900,
+    "id": "f4454a96-6581-4438-b93e-39a2004d1ee5",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "bf0f58a6-c842-467e-85e9-2cdd8e0265e0",
+        "name": "2",
+        "type": "2",
+        "value": "开源仓库"
+      },
+      {
+        "id": "36b73e5a-307d-4add-b5c5-137e2458c376",
+        "name": "1",
+        "type": "0",
+        "value": "私有仓库"
+      },
+      {
+        "id": "d265712f-3d78-405a-a779-f5254e2e736a",
+        "name": "3",
+        "type": "2",
+        "value": "闭源仓库"
+      },
+      {
+        "id": "87f9c68d-1e36-4c48-beee-93da8d654c06",
+        "name": "0",
+        "type": "0",
+        "value": "公有仓库"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "以下哪些案例采用了Docker（）。",
+    "errorRate": 353300,
+    "id": "28ad0f96-d316-4983-ae3f-b80981671036",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "34602149-21b4-44d4-93ac-134fa3c2cb66",
+        "name": "0",
+        "type": "0",
+        "value": "京东弹性计算云"
+      },
+      {
+        "id": "1b66939c-1b98-4392-9aff-bbdd813edc1b",
+        "name": "2",
+        "type": "0",
+        "value": "阿里云百川TAE"
+      },
+      {
+        "id": "da66b982-c1df-4f93-b71e-534f09396872",
+        "name": "3",
+        "type": "2",
+        "value": "百度网盘"
+      },
+      {
+        "id": "36a41cf1-7c22-492d-8bd5-5353b80c1cb9",
+        "name": "1",
+        "type": "0",
+        "value": "腾讯Gaia平台"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "Docker是采用（）语言编写的。",
+    "errorRate": 270200,
+    "id": "3d64fab9-e800-4ab0-85a8-86d5df966b9c",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "51b8cc8b-902c-45ca-be80-886f5eaaf137",
+        "name": "3",
+        "type": "1",
+        "value": "Shell"
+      },
+      {
+        "id": "0ef379b4-bd2b-44dc-a33a-1dcdb8c54c6b",
+        "name": "1",
+        "type": "1",
+        "value": "C++"
+      },
+      {
+        "id": "1c3c81f9-2c1c-423b-99af-a273499e0b46",
+        "name": "2",
+        "type": "0",
+        "value": "Go"
+      },
+      {
+        "id": "74107dd3-8d96-420b-879d-6da13b3b197b",
+        "name": "0",
+        "type": "1",
+        "value": "Java"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "相较于()只能采用客户端实现分布式存储，()则在服务器端构建分布式存储。",
+    "errorRate": 225700,
+    "id": "bba42537-edfc-4ef7-b398-bf67e310ca02",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "d5012444-f71d-40fc-9656-5db84f30ce44",
+        "name": "1",
+        "type": "0",
+        "value": "Memcached、Redis"
+      },
+      {
+        "id": "2b4d9dd9-59d0-4a85-b9f5-abee584875a8",
+        "name": "2",
+        "type": "1",
+        "value": "Memcached、MySql"
+      },
+      {
+        "id": "8609056d-158f-474e-9993-eaef20f42c2b",
+        "name": "3",
+        "type": "1",
+        "value": "Mysql、Redis"
+      },
+      {
+        "id": "163c6639-dc02-44d9-aa54-0d313d43fc9d",
+        "name": "0",
+        "type": "1",
+        "value": "Redis、Memcached"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "以下属于容器平台管理工具集的是（）。",
+    "errorRate": 645000,
+    "id": "5785b41c-bb1f-444a-867d-a77c5b9e7c9a",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "f6a0dc84-1ef6-4ebc-b0b9-a7c3ba76abd6",
+        "name": "3",
+        "type": "0",
+        "value": "Pipeline"
+      },
+      {
+        "id": "0d90dd82-9ff3-4ed8-9523-8c06ec4cf1e5",
+        "name": "1",
+        "type": "1",
+        "value": "Rocket"
+      },
+      {
+        "id": "6b10622c-5eac-4853-9b99-6b754f2f87a9",
+        "name": "0",
+        "type": "1",
+        "value": "Docker"
+      },
+      {
+        "id": "38405a5b-04a9-429a-ba4f-73c8df72f27f",
+        "name": "2",
+        "type": "1",
+        "value": "Ubuntu"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "敏捷测试流程特点是（）",
+    "errorRate": 387100,
+    "id": "b54fcf6f-2be9-4aca-a998-4069559ba379",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "e72b7c9b-6481-428f-b441-2a9a0719557c",
+        "name": "3",
+        "type": "0",
+        "value": "不严格依赖于文档"
+      },
+      {
+        "id": "0e0c3bdd-f1a0-4f7d-8155-e7df466c2ab0",
+        "name": "1",
+        "type": "0",
+        "value": "测试人员尽量把可以提前完成的工作在编码之前或编码过程中完成"
+      },
+      {
+        "id": "cb369dc1-9f50-4fb8-90ad-624c17890f96",
+        "name": "2",
+        "type": "0",
+        "value": "根据需求调整测试用例的粒度，以便快速响应需求的变化"
+      },
+      {
+        "id": "b9fa0f47-6d09-4384-838d-33fe0ca14425",
+        "name": "0",
+        "type": "0",
+        "value": "需持续不断的进行测试、反馈"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 2
+  },
+  {
+    "answerRecord": null,
+    "content": "持续交付指的是以较()地周期完成需求到产品的()交付。",
+    "errorRate": 125300,
+    "id": "09b7a84c-a751-44e9-82cf-583745cfcd4d",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "847be503-9bc0-4d8e-8117-9347c2d383c7",
+        "name": "0",
+        "type": "0",
+        "value": "短，频繁"
+      },
+      {
+        "id": "d4b6ee92-63e1-4065-913b-ee89acdb46b0",
+        "name": "3",
+        "type": "1",
+        "value": "长,偶尔"
+      },
+      {
+        "id": "a65d202b-9c27-48b2-865d-1cd19fe95d1f",
+        "name": "2",
+        "type": "1",
+        "value": "短，偶尔"
+      },
+      {
+        "id": "28f419e4-6bb9-408a-b7a4-7a5eb1a7ab58",
+        "name": "1",
+        "type": "1",
+        "value": "长，频繁"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  },
+  {
+    "answerRecord": null,
+    "content": "Struts2标签中，（）标签用于迭代输出集合中的元素，包括List、Set和数组。",
+    "errorRate": 233000,
+    "id": "c3abc78a-926d-4727-ae1f-80426c9c2ecf",
+    "parentId": null,
+    "questionAttrCopys": [
+      {
+        "id": "d74937cd-f00a-4206-9527-fa8e09104219",
+        "name": "3",
+        "type": "1",
+        "value": "i18n"
+      },
+      {
+        "id": "30b24829-5b75-4236-ac88-03e15e075272",
+        "name": "2",
+        "type": "1",
+        "value": "param"
+      },
+      {
+        "id": "5a9431f0-0231-4090-9fda-562eb90a3a1b",
+        "name": "1",
+        "type": "0",
+        "value": "iterator"
+      },
+      {
+        "id": "ae3e0646-2b0f-4bb5-ad4c-a8c2daf3aa18",
+        "name": "0",
+        "type": "1",
+        "value": "bean"
+      }
+    ],
+    "score": 300,
+    "subs": null,
+    "type": 1
+  }
+]
