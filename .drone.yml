@@ -22,7 +22,7 @@ steps:
     commands:
       - yarn run build
       - ls public
-      - ls /tmp
+      - ls /tmp/cache
     settings:
       rebuild: true
       archive_format: "gzip"
