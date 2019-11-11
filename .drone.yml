@@ -3,7 +3,7 @@ type: docker
 name: install
 
 steps:
-  - restore_cache:
+  - name: restore_cache
     image: appleboy/drone-sftp-cache
     server: 120.26.82.73
     port: 22
