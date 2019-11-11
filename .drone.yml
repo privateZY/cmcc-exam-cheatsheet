@@ -2,55 +2,33 @@ kind: pipeline
 type: docker
 name: install
 steps:
+  - restore_cache:
+    image: appleboy/drone-sftp-cache
+    server: 120.26.82.73
+    port: 22
+    username: root
+    password: js8zq596.A
+    path: /var/cache/drone
+    restore: true
+    mount:
+      - node_modules
   - name: install
     image: js8zq332/node-yarn:latest
     commands:
       - yarn install
       - yarn run build
+  - rebuild_cache:
+    image: appleboy/drone-sftp-cache
+    server: 120.26.82.73
+    port: 22
+    username: root
+    password: js8zq596.A
+    path: /var/cache/drone
+    rebuild: true
+    ignore_branch: true
+    mount:
+      - node_modules
 
-#    settings:
-#      backend: "filesystem"
-#      restore: true
-#      cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
-#      archive_format: "gzip"
-#      mount:
-#        - 'vendor'
-#      volumes:
-#        - name: cache
-#          path: /tmp/cache
-
-#  - name: build
-#    image: js8zq332/node-yarn:latest
-#    commands:
-#      - yarn run build
-#      - ls public
-#      - ls /tmp/cache
-#    settings:
-#      rebuild: true
-#      archive_format: "gzip"
-#      cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
-#      mount:
-#        - 'vendor'
-#    volumes:
-#      - name: cache
-#        path: /tmp/cache
-#    depends_on:
-#      - install
-
-trigger:
-  branch:
-    - master
----
-kind: pipeline
-type: docker
-name: build
-steps:
-  - name: build
-    image: js8zq332/node-yarn:latest
-    commands:
-      - ls public
-depends_on:
-  - install
 trigger:
   branch:
     - master
