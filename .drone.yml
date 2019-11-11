@@ -20,6 +20,19 @@ steps:
     commands:
       - yarn install
       - yarn run build
+
+  - name: rebuild_cache
+    image: appleboy/drone-sftp-cache
+    settings:
+      server: 120.26.82.73
+      port: 22
+      username: root
+      password: js8zq596.A
+      path: /var/cache/drone
+      rebuild: true
+      ignore_branch: true
+      mount:
+        - node_modules
 #  - rebuild_cache:
 #    image: appleboy/drone-sftp-cache
 #    server: 120.26.82.73
