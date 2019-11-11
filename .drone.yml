@@ -2,9 +2,38 @@ kind: pipeline
 type: docker
 name: default
 steps:
-  - name: build
+  - name: install
     image: js8zq332/node-yarn:latest
     commands:
       - yarn install
-      - yarn build
-      - ls build
+    settings:
+      backend: "filesystem"
+      restore: true
+      cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
+      archive_format: "gzip"
+      mount:
+        - 'vendor'
+      volumes:
+        - name: cache
+          path: /tmp/cache
+
+  - name: build
+    image: js8zq332/node-yarn:latest
+    commands:
+      - yarn run build
+      - ls public
+    settings:
+      rebuild: true
+      archive_format: "gzip"
+      cache_key: '{{ .Repo.Name }}_{{ checksum "package.json" }}'
+      mount:
+        - 'vendor'
+    volumes:
+      - name: cache
+        path: /tmp/cache
+    depends_on:
+      - install
+
+trigger:
+  branch:
+    - master
