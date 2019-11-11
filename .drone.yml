@@ -1,0 +1,10 @@
+kind: pipeline
+type: docker
+name: default
+steps:
+  - name: build
+    image: js8zq332/node-yarn:latest
+    commands:
+      - yarn install
+      - yarn build
+      - ls build
