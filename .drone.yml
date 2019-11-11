@@ -5,6 +5,7 @@ steps:
   - name: install
     image: js8zq332/node-yarn:latest
     commands:
+      - ls /tmp/cache
       - yarn install
     settings:
       backend: "filesystem"
