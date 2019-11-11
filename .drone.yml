@@ -6,6 +6,8 @@ steps:
     image: js8zq332/node-yarn:latest
     commands:
       - yarn install
+      - yarn run build
+
 #    settings:
 #      backend: "filesystem"
 #      restore: true
@@ -46,9 +48,7 @@ steps:
   - name: build
     image: js8zq332/node-yarn:latest
     commands:
-      - yarn run build
       - ls public
-      - ls /tmp/cache
 depends_on:
   - install
 trigger:
