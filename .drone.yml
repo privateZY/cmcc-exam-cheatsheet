@@ -12,6 +12,7 @@ steps:
       password: js8zq596.A
       path: /var/cache/drone
       restore: true
+      ignore_branch: true
       mount:
         - node_modules
 
