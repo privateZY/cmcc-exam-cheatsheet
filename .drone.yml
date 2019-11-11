@@ -32,9 +32,12 @@ steps:
 #    volumes:
 #      - name: cache
 #        path: /tmp/cache
-    depends_on:
-      - install
+#    depends_on:
+#      - install
 
+trigger:
+  branch:
+    - master
 ---
 kind: pipeline
 type: docker
@@ -46,7 +49,8 @@ steps:
       - yarn run build
       - ls public
       - ls /tmp/cache
-
+depends_on:
+  - install
 trigger:
   branch:
     - master
