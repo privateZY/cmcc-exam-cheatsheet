@@ -5,7 +5,6 @@ steps:
   - name: install
     image: js8zq332/node-yarn:latest
     commands:
-      - ls /tmp/cache
       - yarn install
     settings:
       backend: "filesystem"
@@ -23,6 +22,7 @@ steps:
     commands:
       - yarn run build
       - ls public
+      - ls /tmp
     settings:
       rebuild: true
       archive_format: "gzip"
@@ -34,6 +34,11 @@ steps:
         path: /tmp/cache
     depends_on:
       - install
+
+volumes:
+  - name: cache
+    host:
+      path: /tmp/cache
 
 trigger:
   branch:
