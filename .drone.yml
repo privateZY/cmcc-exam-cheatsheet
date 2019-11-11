@@ -6,7 +6,7 @@ steps:
   - name: restore_cache
     image: appleboy/drone-sftp-cache
     settings:
-      server: 120.26.82.73
+      server: 47.100.208.153
       port: 22
       username: root
       password: js8zq596.A
@@ -25,7 +25,7 @@ steps:
   - name: rebuild_cache
     image: appleboy/drone-sftp-cache
     settings:
-      server: 120.26.82.73
+      server: 47.100.208.153
       port: 22
       username: root
       password: js8zq596.A
