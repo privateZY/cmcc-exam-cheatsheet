@@ -1,6 +1,6 @@
 kind: pipeline
 type: docker
-name: default
+name: install
 steps:
   - name: install
     image: js8zq332/node-yarn:latest
@@ -17,12 +17,12 @@ steps:
 #        - name: cache
 #          path: /tmp/cache
 
-  - name: build
-    image: js8zq332/node-yarn:latest
-    commands:
-      - yarn run build
-      - ls public
-      - ls /tmp/cache
+#  - name: build
+#    image: js8zq332/node-yarn:latest
+#    commands:
+#      - yarn run build
+#      - ls public
+#      - ls /tmp/cache
 #    settings:
 #      rebuild: true
 #      archive_format: "gzip"
@@ -34,6 +34,18 @@ steps:
 #        path: /tmp/cache
     depends_on:
       - install
+
+---
+kind: pipeline
+type: docker
+name: build
+steps:
+  - name: build
+    image: js8zq332/node-yarn:latest
+    commands:
+      - yarn run build
+      - ls public
+      - ls /tmp/cache
 
 trigger:
   branch:
