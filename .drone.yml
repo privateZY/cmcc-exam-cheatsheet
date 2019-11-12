@@ -20,7 +20,7 @@ steps:
     image: js8zq332/node-yarn:latest
     environment:
       CUSTOM_SCHEMA:
-        from_secret: schema
+        from_secret: username
     commands:
       - echo ${CUSTOM_SCHEMA}
       - yarn install
@@ -58,5 +58,12 @@ trigger:
 kind: secret
 name: username
 get:
-  path: secrets/data/drone-ci
-  name: schema
+  path: secrets/data/docker
+  name: username
+
+---
+kind: secret
+name: password
+get:
+  path: secrets/data/docker
+  name: password
