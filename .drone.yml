@@ -19,8 +19,8 @@ steps:
   - name: install
     image: js8zq332/node-yarn:latest
     environment:
-      USERNAME: linux
-#        from_secret: username
+      USERNAME:
+        from_secret: username
       PASSWORD:
         from_secret: password
     commands:
