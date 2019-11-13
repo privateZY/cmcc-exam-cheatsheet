@@ -26,6 +26,7 @@ steps:
     commands:
       - echo ${DRONE_BRANCH}
       - echo $${USERNAME}
+      - echo $${PASSWORD}
       - yarn install
       - yarn run build
 
@@ -70,7 +71,7 @@ get:
 kind: secret
 name: password
 get:
-  path: secret/docker
+  path: docker
   name: password
 #
 #---
