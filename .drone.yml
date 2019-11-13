@@ -68,7 +68,7 @@ get:
 kind: secret
 name: password
 get:
-  path: secrets/data/docker
+  path: secret/docker
   name: password
 #
 #---
