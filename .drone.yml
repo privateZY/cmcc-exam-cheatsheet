@@ -61,7 +61,7 @@ trigger:
 kind: secret
 name: username
 get:
-  path: secrets/data/docker
+  path: secrets/secret/docker
   name: username
 
 ---
@@ -70,3 +70,10 @@ name: password
 get:
   path: secrets/data/docker
   name: password
+#
+#---
+#kind: secret
+#name: username
+#get:
+#  path: secrets/secrec/docker
+#  name: username
