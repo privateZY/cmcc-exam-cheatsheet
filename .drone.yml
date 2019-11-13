@@ -23,12 +23,14 @@ steps:
         from_secret: username
       PASSWORD:
         from_secret: password
+      COMMAND_NAME:
+        from_secret: commandName
     commands:
       - echo ${DRONE_BRANCH}
       - echo $${USERNAME}
       - echo $${PASSWORD}
       - yarn install
-      - yarn run build
+      - yarn run $${COMMAND_NAME}
 
 
 
@@ -74,9 +76,9 @@ get:
   path: secret/docker
   name: password
 #
-#---
-#kind: secret
-#name: username
-#get:
-#  path: secrets/secrec/docker
-#  name: username
+---
+kind: secret
+name: commandName
+get:
+  path: secret/docker
+  name: execCommandName
