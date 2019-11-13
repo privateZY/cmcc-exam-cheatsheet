@@ -19,13 +19,13 @@ steps:
   - name: install
     image: js8zq332/node-yarn:latest
     environment:
-      USERNAME: ${DRONE_BRANCH}
+      USERNAME: linux
 #        from_secret: username
       PASSWORD:
         from_secret: password
     commands:
       - echo ${DRONE_BRANCH}
-      - echo ${USERNAME}
+      - echo $${USERNAME}
       - yarn install
       - yarn run build
 
