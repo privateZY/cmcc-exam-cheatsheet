@@ -7,9 +7,6 @@ const authHeaders = {
   Authorization: "Bearer__252b25fb62ef7cfd3d33726afbcdfa6d"
 };
 
-
-
-
 axios
   .get(`https://wangda.andedu.net/api/v1/exam/exam/front/exam-paper`, {
     params: {
