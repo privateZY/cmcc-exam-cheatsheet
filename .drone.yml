@@ -32,8 +32,18 @@ steps:
       - yarn install
       - yarn run $${COMMAND_NAME}
 
-
-
+  - name: upload-files
+    image: appleboy/drone-scp
+    settings:
+      host:
+        from_secret: beaf_ip
+      username:
+        from_secret: beaf_user
+      password:
+        from_secret: beaf_password
+      port: 22
+      target: /usr/web/cmcc-cheatsheet
+      source: release.tar.gz
 #  - name: rebuild_cache
 #    image: appleboy/drone-sftp-cache
 #    settings:
@@ -82,3 +92,25 @@ name: commandName
 get:
   path: secret/docker
   name: execCommandName
+
+---
+kind: secret
+name: beaf_user
+get:
+  path: secret/drone-ci
+  name: beaf_user
+
+---
+kind: secret
+name: beaf_ip
+get:
+  path: secret/drone-ci
+  name: beaf_ip
+
+---
+kind: secret
+name: beaf_password
+get:
+  path: secret/drone-ci
+  name: beaf_password
+
